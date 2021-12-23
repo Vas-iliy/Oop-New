@@ -1,7 +1,7 @@
 <?php
 
 
-class BookProduct extends Products
+class BookProduct extends Product
 {
     public $numPages;
 

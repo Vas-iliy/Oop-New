@@ -2,8 +2,8 @@
 
 require_once 'classes/Products.php';
 
-$book = new Products('Gays', 20, null, 100);
-$notebook = new Products('Dell', 20, 'intel');
+$book = new Product('Gays', 20, null, 100);
+$notebook = new Product('Dell', 20, 'intel');
 
 var_dump($book);
 var_dump($notebook);

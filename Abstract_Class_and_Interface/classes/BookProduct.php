@@ -1,7 +1,8 @@
 <?php
 
+require_once 'I3D.php';
 
-class BookProduct extends Product
+class BookProduct extends Product implements I3D
 {
     public $numPages;
 
@@ -9,11 +10,13 @@ class BookProduct extends Product
     {
         parent::__construct($name, $price);
         $this->numPages = $numPages;
+        $this->setDiscount(5);
     }
 
     public function getProduct()
     {
         $out = parent::getProduct();
+        $out .= "Цена без скидки: {$this->price}<br>";
         $out .= "Кол-во страниц {$this->numPages}<br>";
 
         return $out;
@@ -22,5 +25,16 @@ class BookProduct extends Product
     public function getNumPages()
     {
         return $this->numPages;
+    }
+
+    public function addProduct()
+    {
+        // TODO: Implement addProduct() method.
+    }
+
+    public function test()
+    {
+        // TODO: Implement test() method.
+        var_dump(self::TEST2);
     }
 }

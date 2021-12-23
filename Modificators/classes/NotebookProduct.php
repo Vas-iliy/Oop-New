@@ -1,7 +1,7 @@
 <?php
 
 
-class NotebookProduct extends Products
+class NotebookProduct extends Product
 {
     public $cpu;
 
