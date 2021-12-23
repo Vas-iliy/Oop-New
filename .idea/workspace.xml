@@ -10,11 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e1f3f04-0f79-4fa3-b031-dc1f8658c1b5" name="Default Changelist" comment="Abstract_Class_and_Interface">
-      <change afterPath="$PROJECT_DIR$/Autoloder/classes/BookProduct.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoloder/classes/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoloder/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoloder/interfaces/I3D.php" afterDir="false" />
+    <list default="true" id="1e1f3f04-0f79-4fa3-b031-dc1f8658c1b5" name="Default Changelist" comment="Autoloder">
+      <change afterPath="$PROJECT_DIR$/Composer_and_Autoloder/classes/BookProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composer_and_Autoloder/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composer_and_Autoloder/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composer_and_Autoloder/vendor/wfm/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composer_and_Autoloder/vendor/wfm/interfaces/I3D.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Autoloder" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Composer_and_Autoloder/php_mailer" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,14 +54,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Programming\OpenServer\domains\OOP\Composer_and_Autoloder\vendor\wfm" />
       <recent name="C:\Programming\OpenServer\domains\OOP\Autoloder\interfaces" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Programming\OpenServer\domains\OOP\Composer_and_Autoloder\php_mailer" />
+      <recent name="C:\Programming\OpenServer\domains\OOP\Composer_and_Autoloder" />
       <recent name="C:\Programming\OpenServer\domains\OOP\Autoloder" />
       <recent name="C:\Programming\OpenServer\domains\OOP\Interfaces_and_Control_Type" />
       <recent name="C:\Programming\OpenServer\domains\OOP\Abstract_Class_end_Interface" />
-      <recent name="C:\Programming\OpenServer\domains\OOP\Modificators" />
-      <recent name="C:\Programming\OpenServer\domains\OOP" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -76,7 +78,7 @@
       <workItem from="1640184618631" duration="3633000" />
       <workItem from="1640188284112" duration="194000" />
       <workItem from="1640190665050" duration="4060000" />
-      <workItem from="1640244399437" duration="16442000" />
+      <workItem from="1640244399437" duration="19081000" />
     </task>
     <task id="LOCAL-00001" summary="new oop">
       <created>1640192053169</created>
@@ -148,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640263170646</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Autoloder">
+      <created>1640268278279</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1640268278279</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +187,8 @@
     <MESSAGE value="Inheritance_part_2" />
     <MESSAGE value="Modificators" />
     <MESSAGE value="Abstract_Class_and_Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstract_Class_and_Interface" />
+    <MESSAGE value="Autoloder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Autoloder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640190949515">
@@ -217,10 +227,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1640190958234" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1640263179383">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1640268283904">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1640263179383" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1640268283904" />
     <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1640190951567">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
